@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #87CEEB, #FF4500);
+    transition: background 1s;
+}
+
+#container {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#clock {
+    font-size: 3em;
+    margin: 20px 0;
+}
+
+#extras {
+    margin-top: 20px;
+}
+
+#weather, #time-facts {
+    margin: 10px 0;
+}
+
+@media (max-width: 600px) {
+    #clock {
+        font-size: 2em;
+    }
+}
